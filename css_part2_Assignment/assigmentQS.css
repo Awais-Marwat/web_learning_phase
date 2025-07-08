@@ -1,0 +1,44 @@
+/*Q1*/
+#mainTopic {
+  color: blue;
+
+}
+
+/*Q2*/
+
+*{
+    text-align: center;
+}
+
+/*Q4*/
+.content {
+    background-color: cornflowerblue;
+    color: white;
+}
+/*Q5*/
+div button {
+    background-color: purple;
+    color: azure;
+} 
+
+/*Q6*/
+div button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/*Q7*/
+p:nth-of-type(odd) 
+{
+    color: yellow;
+}
+/*Q8*/
+h1::first-letter {
+    color: red;
+}
+
+/*Q9*/
+#yes:checked + label {
+    background-color: darkgreen;
+}
+
