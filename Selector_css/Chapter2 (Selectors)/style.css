@@ -1,0 +1,111 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: wheat;
+}
+
+h1,
+h3{
+    color:#b92b27;
+
+}
+
+#login{
+    background-color: #f0f0f0;
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/*descendent selector */
+
+p a {
+    color:purple
+}
+
+nav ul li a {
+    color: violet;
+}
+
+/*Adjacent Sibling Combinator */
+p + h3  {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: dark;
+}
+
+/* Child Selector */
+div > input {
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+
+/* Pseudo-classes */
+
+/* hover */
+button:hover {
+    background-color: darkblue;
+    color: white;
+}   
+
+h3:hover {
+
+    text-decoration: overline;
+}
+
+/* active */
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+
+/* checked */
+input[type="radio"]:checked + label {
+
+    font-weight: bold;  
+    color: green;
+}
+
+/* :nth-of-type() */
+div:nth-of-type(2) {
+    background-color: lightblue;
+}
+
+
+/* pseudo-element */
+p::first-line {
+    font-weight: bold;
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+p::selection {
+    background-color: hotpink;
+    color: black;
+}
